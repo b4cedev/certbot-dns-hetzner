@@ -1,5 +1,4 @@
 # Certbot image to build on (e.g. certbot/certbot:amd64-v0.35.0)
-ARG BASE_IMAGE
 FROM certbot/certbot:v2.4.0
 
 # Copy Certbot DNS plugin code
